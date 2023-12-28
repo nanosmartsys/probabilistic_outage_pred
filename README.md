@@ -1,6 +1,6 @@
 # Probabilistic Storm and Electric Utility Customer Outage Prediction 
 Our probabilistic models comprise a storm model and a null model. Both models count of customer outages as a random variable. Whereas the former uses the Poisson Mixture Model (PMM) to model instances of the storm and non-storm events (two populations) in the outage count data by computing 
-probability density function (pmf) distributions from the population, the latter defines a null hypothesis that a given count of outage observation has no storm  and thus, estimate a lambda parameter that is true across each observation by fitting Poisson and negative binomial models. 
+probability mass function (pmf) distributions from the population, the latter defines a null hypothesis that a given count of outage observation has no storm  and thus, estimate a lambda parameter that is true across each observation by fitting Poisson and negative binomial models. 
 Specifically, the null models generate empirical p-values under the assumption that the null is true - that is, compute the probability of generating outages that are at least as extreme as our test statistics assuming our null is true. 
 
 # Data Description
